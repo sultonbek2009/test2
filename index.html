@@ -1,12 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ulkan Sayt</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h1>Hello</h1>
-    <h2>oxshadiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</h2>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#">Я</a>
+        </div>
+        <ul>
+          <li><a href="#home">Bosh Sahifa</a></li>
+          <li><a href="#services">Xizmatlar</a></li>
+          <li><a href="#about">Biz haqimizda</a></li>
+          <li><a href="#contact">Aloqa</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h1>Saytga Xush Kelibsiz!</h1>
+      <p>Bizning saytimiz orqali o'zingizga kerakli xizmatlarni toping.</p>
+      <a href="#services" class="cta-button">Xizmatlarimizni ko'rish</a>
+    </section>
+
+    <section id="services">
+      <h2>Xizmatlarimiz</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <h3>Veb-sayt yaratish</h3>
+          <p>
+            Biz professional veb-saytlar yaratamiz, har qanday talabga mos
+            keladi.
+          </p>
+        </div>
+        <div class="service-card">
+          <h3>Web dizayn</h3>
+          <p>Saytingizni zamonaviy va estetik dizayn bilan ta'minlaymiz.</p>
+        </div>
+        <div class="service-card">
+          <h3>SEO xizmatlari</h3>
+          <p>
+            Saytingizni qidiruv tizimlarida yuqori o'rinlarga ko'tarishga yordam
+            beramiz.
+          </p>
+        </div>
+        <div class="service-card">
+          <h3>Mobil ilovalar</h3>
+          <p>
+            Mobil ilovalar yaratish orqali biznesingizni yangi bosqichga
+            ko'taramiz.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Biz Haqimizda</h2>
+      <p>
+        Ulkan kompaniyasi 10 yillik tajribaga ega va sizga eng yaxshi
+        veb-xizmatlarni taqdim etadi. Bizning maqsadimiz — har bir mijozga
+        yuqori sifatli xizmatlar taqdim etish.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Aloqa</h2>
+      <form id="contact-form">
+        <label for="name">Ismingiz:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Elektron pochta:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Xabar:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Yuborish</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Ulkan. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
